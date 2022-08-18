@@ -1,0 +1,22 @@
+// main.scss
+
+@import 'main/scaffolding';
+@import 'main/footer';
+
+.welcome{
+  display: flex;
+  height: 100%;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  backgorund: #ddd;
+  margin-bottom: 3rem;
+
+  h1{
+  	font-size: 5rem;
+  }
+
+  .description{
+  	font-size: 1.5rem;
+  }
+}
