@@ -12,31 +12,37 @@ node 14 以上
 
 ## 開始使用
 
-git clone https://github.com/BLOCKCODE-TW/FE_TEMPLATE.git
+1. 從 github 下載前端專案範本
 
-移除隱藏 .git 資料夾
+    ```bash
+    git clone https://github.com/BLOCKCODE-TW/FE_TEMPLATE.git
+    ```
 
-修改專案目錄 FE_TEMPLATE 名稱
+2. 移除隱藏 .git 資料夾
 
-```bash
-yarn install
-```
+3. 修改專案目錄 FE_TEMPLATE 名稱
 
-修改 gulpfile.js 裡面的 `project_name`
+4. 安裝套件
 
-執行
+    ```bash
+    yarn install
+    ```
 
-```bash
-gulp
-```
+5. 啟動 gulp
 
-## 開發注意事項
+    修改 gulpfile.js 裡面的 `project_name`
 
-修改 src 下的
+    執行
 
-index.html
+    ```bash
+    gulp
+    ```
 
-## 加入版本控管
+6. 加入版本控管
+
+7. 開發
+
+    修改 src 下的 index.html
 
 ## 外網測試
 
@@ -48,11 +54,11 @@ ngrok http http://localhost:8080
 
 ## 部署
 
-dist
+在 dist 目錄下面找到專案目錄，就可以佈署出去
 
 ## 版本說明
 
-### v1.1
+### v1.1 - 2022/08/18
 
 .gitignore 裡面增加 .ds_store
 
