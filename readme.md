@@ -8,6 +8,8 @@ v 1.1
 
 node 14 以上
 
+[請參考環境安裝說明](env.md)
+
 ## 安裝
 
 git clone https://github.com/BLOCKCODE-TW/FE_TEMPLATE.git
