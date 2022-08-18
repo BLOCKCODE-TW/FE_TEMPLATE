@@ -10,19 +10,25 @@ node 14 以上
 
 [請參考環境安裝說明](env.md)
 
-## 安裝
+## 開始使用
 
 git clone https://github.com/BLOCKCODE-TW/FE_TEMPLATE.git
 
-remove .git
+移除隱藏 .git 資料夾
 
-rename folder name
+修改專案目錄 FE_TEMPLATE 名稱
 
+```bash
 yarn install
+```
 
-修改 gulpfile.js 裡面的 projectname
+修改 gulpfile.js 裡面的 `project_name`
 
+執行
+
+```bash
 gulp
+```
 
 ## 開發注意事項
 
@@ -30,9 +36,15 @@ gulp
 
 index.html
 
-## 測試
+## 加入版本控管
 
+## 外網測試
+
+腳本採用 browse sync 所以可以透過 ngrok 轉到外網
+
+```bash
 ngrok http http://localhost:8080
+```
 
 ## 部署
 
