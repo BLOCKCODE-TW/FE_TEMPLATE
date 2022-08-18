@@ -2,6 +2,8 @@
 
 使用 Bootstrap 的前端開發範本
 
+v 1.1
+
 ## 環境需求
 
 node 14 以上
@@ -23,6 +25,12 @@ gulp
 修改 src 下的
 
 index.html
+
+## 版本說明
+
+### v1.1
+
+.gitignore 裡面增加 .ds_store
 
 ## 其他參考
 
