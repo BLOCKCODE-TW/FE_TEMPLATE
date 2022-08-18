@@ -1,3 +1,7 @@
+/* 記得修改 project_name */
+const project_name = 'DrSignal';
+
+/* 程式區塊 */
 const gulp = require('gulp');
 const $ = require('gulp-load-plugins')({lazy: false});
 const sass = require('gulp-sass')(require('sass'));
@@ -6,7 +10,6 @@ const rename = require('gulp-rename');
 const imagemin = require('gulp-image');
 const browserSync = require('browser-sync').create();
 
-const project_name = 'DrSignal';
 
 const staticFiles = [
     "./src/**/*",

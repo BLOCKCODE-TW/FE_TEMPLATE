@@ -10,13 +10,15 @@ node 14 以上
 
 ## 安裝
 
-git clone
+git clone https://github.com/BLOCKCODE-TW/FE_TEMPLATE.git
+
+remove .git
+
+rename folder name
 
 yarn install
 
-## 啟動自動化作業
-
-在 vscode 環境下執行
+修改 gulpfile.js 裡面的 projectname
 
 gulp
 
