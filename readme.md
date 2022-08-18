@@ -28,6 +28,10 @@ gulp
 
 index.html
 
+## 測試
+
+ngrok http http://localhost:8080
+
 ## 版本說明
 
 ### v1.1
