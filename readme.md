@@ -56,12 +56,8 @@ dist
 
 .gitignore 裡面增加 .ds_store
 
-## 其他參考
+## 感謝貢獻清單
 
-Justin 提供的開發文件
+[@quinnai9287](https://github.com/quinnai9287)
 
-https://docs.google.com/document/d/19o2W8TGJwVfz86EbdtOArjxxu0WH7qFd4E8PBowTWdc/edit#
-
-橘子分享的 gulp 
-
-https://sharkcoder.com/tools/gulp
+[@jaliao](https://github.com/jaliao)
