@@ -56,7 +56,7 @@ nano ~/.bash_profile
 and
 
 ```bash
-nano ~/.zashrc
+nano ~/.zshrc
 ```
 
 並在上面兩個檔案裏面，加入以下程式碼存檔即可
